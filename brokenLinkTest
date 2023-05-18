@@ -44,7 +44,7 @@ public class brokenLinkTest {
 			e.printStackTrace();
 		}
 		WebElement pwd = driver.findElement(By.xpath("//input[@id='i0118']"));
-		pwd.sendKeys("N3w$ire72");
+		pwd.sendKeys("myPassword");
 		try {
 			Thread.sleep(5000);
 		} catch (InterruptedException e) {
